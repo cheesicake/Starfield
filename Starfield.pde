@@ -9,7 +9,14 @@ void draw()
 }
 class Particle
 {
-  //double myX, myY, mySpeed, my
+  double myX, myY, myS, myC, myA;
+  Particle(){
+   myC = color((int)(Math.random()*252)+50);
+   myX =  width/2;
+   myY = height/2;
+   myS = (int)(Math.random()*5) - 2;
+   
+  }
   void show(){
    
   }
